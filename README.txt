@@ -1,4 +1,4 @@
-For the Classical Molecular Dynamics (MD) and Free Energy Perturbation (FEP) calculation, separate directories are utilized. The "FEP_Input" directory correspond to the free energy perturbation calculation input files for all the mutations. We have provided files for Alanine mutations, Single mutations and Double_Triple mutations in three separate directories.
+For the Classical Molecular Dynamics (MD) and Free Energy Perturbation (FEP) calculation, separate directories are utilized. The free energy perturbation calculation input files for all the mutations are provided in their respective directories.
 
 ############################################
 Classical MD directory - Classical_MD_Input
@@ -22,22 +22,20 @@ ligand_EVO.prm; ligand parameters
 par_all36_cgenff.prm; ligand parameters
 
 
-
 setup.namd; NAMD ADJUSTABLE PARAMETERS
 
 ** use setup.namd file to run the classical MD simulation of the PDE5_EVO complex
 
 
 #######################################
-FEP directory - FEP_Input
+Directories for FEP input files
 #######################################
-This directory has following folders:
 
-Alanine_Mutations; Input files for all alanine mutations
+Input files for alanine mutations: A611S, A767S, D563A, F564A, I778A, L781A, N614A, N620A, R616A, S766A, T621A.
 
-Single_Mutations; Input files for all single mutations
+Input files for all single mutations: F564L, L781M, I778V, R616Q.
 
-Double_Triple_Mutations; Input files for double and triple mutations
+Input files for double and triple mutations: F564L+I778V, L781M+I778V, R616Q+L781M+I778V
 
 ** check readme.txt in individual folders for details
 
